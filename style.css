@@ -77,10 +77,8 @@ main {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
-  /* escurece a imagem */
   border-radius: 10px;
   z-index: 0;
-  /* overlay atrás do texto */
 }
 
 .mincard:hover {
@@ -95,8 +93,10 @@ main {
 
 .cards2 {
   display: grid;
+  display:flex;
+  justify-content:center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  gap: 40px;
   cursor: pointer;
 }
 
@@ -164,17 +164,33 @@ main {
 .card7 {
   position: relative;
   background-image: url('/styles/pictures/html.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+  background-color:#999999;
+  width:30vw;
 }
 
 .card8 {
   position: relative;
-  background-image: url('/styles/pictures/css-img.png');
-  background-size: cover;
+  background-image: url('/styles/pictures/CSS3_logo_and_wordmark.svg.png');
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+  background-color:#999999;
+  width:30vw;
+}
+
+.footer{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:120px;
+  background-color:#050a14;
+  width:100%;
+  color: #f0f0f0;
+  margin-top:3rem;
+  border-radius:10px 10px 0 0;
 }
