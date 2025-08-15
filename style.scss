@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+@import "color.scss";
+
+main{
+    width:90%;
+    margin:0 auto;
+}
+.topo{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    h1{
+        padding:15px 0;
+    }
+    p{
+        margin:10px 8%;
+    }
+}
+.sobre{
+    font-size:1.2rem;
+}
+
+
+.cards1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.mincard {
+  background-color: #777171;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height:180px;
+}
+
+.mincard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.stack1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+}
+.stack2 h2{
+    text-align:center;
+    margin:20px;
+}
+
+.card1{
+    background-image: url('/styles/pictures/aluminum-disemboweler3000-03OJYx69lT4-unsplash.jpg');
+}

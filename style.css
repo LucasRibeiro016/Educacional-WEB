@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d8d1d1;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.topo h1 {
+  padding: 15px 0;
+  color: #027e38;
+}
+
+.topo p {
+  margin: 10px 8%;
+}
+
+.title {
+  color: #027e38;
+  text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.178);
+}
+
+.sobre {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.mincard h3 {
+  position: relative;
+  z-index: 1;
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  text-shadow: -1px 6px 5px rgba(0, 0, 0, 0.29);
+
+}
+
+
+.mincard {
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 180px;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.mincard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  /* escurece a imagem */
+  border-radius: 10px;
+  z-index: 0;
+  /* overlay atrás do texto */
+}
+
+.mincard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stack1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  cursor: pointer;
+}
+
+.stack2 h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.card1 {
+  position: relative;
+  background-image: url('/styles/pictures/oque-e-web.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card2 {
+  position: relative;
+  background-image: url('/styles/pictures/como-funfa.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card3 {
+  position: relative;
+  background-image: url('/styles/pictures/navegadores.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card4 {
+  position: relative;
+  background-image: url('/styles/pictures/url.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card5 {
+  position: relative;
+  background-image: url('/styles/pictures/linguagens.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card6 {
+  position: relative;
+  background-image: url('/styles/pictures/https-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card7 {
+  position: relative;
+  background-image: url('/styles/pictures/html.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.card8 {
+  position: relative;
+  background-image: url('/styles/pictures/css-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
