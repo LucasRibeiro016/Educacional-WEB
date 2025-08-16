@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
-        rel="stylesheet">
-        <link rel="stylesheet" href="reponsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reponsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Educacional</title>
 </head>
 
@@ -18,73 +19,63 @@
     <header>
         <div class="topo">
             <h1 class="title">Mini Dev</h1>
-            <h2>Sobre<h2>
-                    <p class="sobre">O MiniDev é um projeto educativo voltado para iniciantes que querem aprender HTML e
-                        CSS de forma simples
-                        e
-                        prática.
-                        O site apresenta desde conceitos básicos de como a web funciona até a construção e estilização
-                        de
-                        páginas.
-                        O conteúdo inclui exemplos claros e exercícios práticos para facilitar o aprendizado.
-                        O objetivo é incentivar a prática, autonomia e curiosidade de quem quer começar no
-                        desenvolvimento web.
-                        O projeto faz parte de uma atividade de extensão universitária, oferecendo aprendizado real à
-                        comunidade.
-                        É totalmente online e acessível a qualquer pessoa, sem necessidade de experiência prévia.</p>
+            <h2>Sobre</h2>
+            <p class="sobre">
+                O MiniDev é um projeto educativo voltado para iniciantes que querem aprender <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a> e <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a> de forma simples e prática.
+                O site apresenta desde conceitos básicos de como a web funciona até a construção e estilização de páginas.
+                O conteúdo inclui exemplos claros e exercícios práticos para facilitar o aprendizado.
+                O objetivo é incentivar a prática, autonomia e curiosidade de quem quer começar no desenvolvimento web.
+                O projeto faz parte de uma atividade de extensão universitária, oferecendo aprendizado real à comunidade.
+                É totalmente online e acessível a qualquer pessoa, sem necessidade de experiência prévia.
+            </p>
         </div>
     </header>
 
     <main>
-
-
         <section class="stack1">
-
             <h2 class="title">Fundamentos da web</h2>
-
-            <div class="cards1">
-
-                <div class="mincard card1 cards">
-                    <h3>Oque e Web</h3>
+            <div class="cards1" data-aos="fade-up" data-aos-duration="1000">
+                <div class="mincard card1 cards" onclick="location.href='pagina1.html'">
+                    <h3>O que é Web</h3>
                 </div>
-                <div class="mincard card2 cards">
+                <div class="mincard card2 cards" onclick="location.href='pagina2.html'">
                     <h3>Como um Site Funciona</h3>
                 </div>
-                <div class="mincard card3 cards">
+                <div class="mincard card3 cards" onclick="location.href='pagina3.html'">
                     <h3>Navegadores e seu papel</h3>
                 </div>
-                <div class="mincard card4 cards">
-                    <h3>Oque e um endereço URL</h3>
+                <div class="mincard card4 cards" onclick="location.href='pagina4.html'">
+                    <h3>O que é um endereço URL</h3>
                 </div>
-                <div class="mincard card5 cards">
+                <div class="mincard card5 cards" onclick="location.href='pagina5.html'">
                     <h3>Linguagens da WEB</h3>
                 </div>
-                <div class="mincard card6 cards">
-                    <h3>Hospedagem e Dominios</h3>
+                <div class="mincard card6 cards" onclick="location.href='pagina6.html'">
+                    <h3>Hospedagem e Domínios</h3>
                 </div>
-
             </div>
         </section>
 
         <section class="stack2">
-            <h2 class="title">Estruturas basicas de HTML e CSS</h2>
-
-            <div class="cards2">
-                <div class="mincard card7 mincard2 cards"></div>
-                <div class="mincard card8 mincard2 cards"></div>
+            <h2 class="title2">Estruturas básicas de HTML5 e CSS3</h2>
+            <div class="cards2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="mincard card7 mincard2 cards" onclick="location.href='pagina7.html'" ></div>
+                <div class="mincard card8 mincard2 cards" onclick="location.href='pagina8.html'"></div>
             </div>
         </section>
+
         <footer>
             <div class="footer">
                 <h4>&copy; Lucas Ribeiro</h4>
                 <div class="img-footer">
-                    <a href="https://www.instagram.com/_lucasribeiro016/" target="_blank">
-                        <img src="https://img.icons8.com/?size=36&id=ZRiAFreol5mE&format=png&color=000000" alt=""></a>
+                    <a href="https://www.instagram.com/_lucasribeiro016/" target="_blank" rel="noopener noreferrer" >
+                        <img src="https://img.icons8.com/?size=36&id=ZRiAFreol5mE&format=png&color=000000" alt="instagram" >
+                    </a>
                 </div>
-
             </div>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

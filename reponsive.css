@@ -12,13 +12,13 @@
 
 @media (min-width: 768px) {
   .sobre {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 
 @media (min-width: 1024px) {
   .sobre {
-    font-size: 0.9em;
+    font-size: em;
     
   }
   .cards1{
@@ -28,7 +28,7 @@
 
 @media (min-width: 1280px) {
   .sobre {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .cards1{
     grid-template-columns: repeat(3, 1fr);
@@ -37,7 +37,7 @@
 
 @media (min-width: 1440px) {
   .sobre {
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   .cards1{
     display:flex;
@@ -54,5 +54,9 @@
   }
   .cards1{
     grid-template-columns: repeat(4, 1fr);
+  }
+  .topo{
+    width:60%;
+    margin:0 auto;
   }
 }
