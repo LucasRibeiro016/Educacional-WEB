@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="reponsive.css">
+
     <title>O que e Web</title>
 </head>
 
@@ -35,7 +43,54 @@
     <main>
         <h1>Como um Site Funciona</h1>
 
-        <section>
+        <section class="container">
+            <img src="/styles/pictures/site-function.jpg" alt="site" class="img1">
+
+            <p class="content">Quando você pensa em acessar um site, pode parecer simples: digita o endereço, aperta
+                Enter e pronto, a página aparece. Mas por trás disso existe uma série de processos técnicos que
+                acontecem em questão de segundos, permitindo que você veja o conteúdo corretamente.</p>
+            <p class="content">Tudo começa com o navegador – o programa que você usa para acessar a web, como Google
+                Chrome, Firefox ou Edge. O navegador é responsável por interpretar os arquivos do site e transformá-los
+                em algo que você consegue ver e interagir.</p>
+            <p class="content">Quando você digita o endereço de um site, o navegador não sabe imediatamente onde ele
+                está. Ele envia uma consulta ao DNS (Domain Name System), que é como uma lista telefônica da internet. O
+                DNS transforma o nome do site, por exemplo www.exemplo.com, em um IP, que identifica exatamente o
+                servidor onde o site está hospedado.</p>
+            <p class="content">Com o IP em mãos, o navegador envia uma requisição HTTP ou HTTPS para o servidor. O HTTPS
+                é a versão segura do protocolo, protegendo os dados trocados entre você e o site. A requisição diz
+                basicamente: “Olá, quero acessar a página principal do seu site”.</p>
+            <p class="content">O servidor é um computador especial que guarda todos os arquivos do site. Ele pode ter
+                arquivos de HTML, que definem a estrutura da página, como títulos, parágrafos, listas e imagens. Ele
+                também pode ter CSS, que determina o estilo visual, como cores, fontes e posicionamento dos elementos. E
+                ainda pode ter JavaScript, que adiciona interatividade, como menus dinâmicos, animações e formulários
+                que funcionam sem precisar recarregar a página.</p>
+            <p class="content">Quando o servidor recebe a requisição, ele envia de volta todos esses arquivos ao
+                navegador. O navegador então começa a interpretar e renderizar o site: ele lê o HTML, aplica o CSS para
+                deixar a página visualmente organizada, e executa o JavaScript para tornar tudo interativo.</p>
+            <p class="content">Se o site tiver imagens, vídeos ou outros arquivos pesados, o navegador pode pedir esses
+                arquivos separadamente. Esse processo é chamado de requisição assíncrona, e garante que a página
+                carregue mais rápido, mostrando primeiro os elementos essenciais.</p>
+            <p class="content">Além disso, alguns sites utilizam bancos de dados para armazenar informações, como
+                usuários, produtos ou posts de um blog. Quando você acessa uma página dinâmica, o servidor consulta o
+                banco de dados, pega os dados necessários e monta a página especialmente para você.</p>
+            <p class="content">Hoje em dia, muitos sites também usam CDNs (Content Delivery Networks), que são redes de
+                servidores espalhados pelo mundo. Elas ajudam a entregar o conteúdo mais rápido, aproximando os arquivos
+                do usuário e reduzindo o tempo de carregamento.</p>
+            <p class="content">Todo esse processo – do navegador pedindo os arquivos, passando pelo servidor,
+                interpretando HTML, CSS e JavaScript – acontece em frações de segundo. É por isso que, para o usuário,
+                parece que tudo acontece instantaneamente.</p>
+            <p class="content">Resumindo, um site funciona porque existe uma comunicação constante entre o navegador e o
+                servidor, que usam protocolos padronizados e estruturas de código específicas. A Web é como uma
+                gigantesca rede de informações interconectadas, e cada site é uma peça dessa rede.</p>
+            <p class="content">No final, você só vê a página bonita e funcional, mas por trás dela existe uma engenharia
+                complexa que transforma dados brutos em uma experiência interativa. Sem HTML, CSS, JavaScript,
+                servidores, DNS e protocolos, a web não funcionaria. Cada clique seu depende de todos esses elementos
+                trabalhando juntos.</p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A-hNZjcaS-Q?si=a4T46o46ixM_J8FC"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
 
         </section>
 

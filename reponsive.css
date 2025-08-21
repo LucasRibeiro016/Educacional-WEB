@@ -17,6 +17,16 @@
   .sobre{
     text-align:left;
   }
+  .content{
+    width:85%;
+    font-family:sans-serif;
+  }
+  .img1{
+    width:90%;
+  }
+  .video{
+    width:90%;
+  }
   
 }
 
@@ -24,6 +34,16 @@
   .sobre {
     font-size: 1.2em;
   }
+  .content{
+    width:70%;
+  }
+  .img1{
+    width:50%;
+  }
+  .video{
+    width:50%;
+  }
+  
 }
 
 @media (min-width: 1024px) {
@@ -34,6 +54,15 @@
   .cards1{
     grid-template-columns: repeat(3, 1fr);
   }
+  .content{
+    width:70%;
+  }
+  .img1{
+    width:50%;
+  }
+  .video{
+    width:50%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -42,6 +71,15 @@
   }
   .cards1{
     grid-template-columns: repeat(3, 1fr);
+  }
+  .content{
+    width:70%;
+  }
+  .img1{
+    width:40%;
+  }
+  .video{
+    width:40%;
   }
 }
 
@@ -56,6 +94,16 @@
   .cards{
     width:380px;
   }
+  .content{
+    width:70%;
+  }
+  .img1{
+    width:50%;
+  }
+  .video{
+    width:50%;
+  }
+
 }
 
 @media (min-width: 1920px) {
@@ -68,5 +116,14 @@
   .topo{
     width:60%;
     margin:0 auto;
+  }
+  .content{
+    width:70%;
+  }
+  .img1{
+    width:30%;
+  }
+  .video{
+    width:30%;
   }
 }
