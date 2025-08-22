@@ -11,7 +11,7 @@ body {
 }
 
 .img1 {
-    max-width: 50vw;
+    max-width: 30vw;
     margin: 2.5rem 0px;
     border-radius:15px;
 }
@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align:center;
 }
 
 .content {
@@ -29,6 +30,7 @@ body {
     font-weight: 300;
     margin-bottom: 0.8rem;
     font-family: sans-serif;
+    text-align:left;
 }
 
 h1 {
@@ -43,10 +45,15 @@ h2 {
     font-family: montserrat, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.178);
 }
+h3{
+    margin:1rem;
+    
+}
 
 .video {
     border-radius: 15px;
     box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.178);
+    margin-top:1.2rem;
 }
 a {
   text-decoration:none;

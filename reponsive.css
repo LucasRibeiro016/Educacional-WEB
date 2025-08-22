@@ -38,7 +38,7 @@
     width:70%;
   }
   .img1{
-    width:50%;
+    width:60%;
   }
   .video{
     width:50%;
@@ -103,6 +103,7 @@
   .video{
     width:50%;
   }
+  
 
 }
 
@@ -121,9 +122,11 @@
     width:70%;
   }
   .img1{
-    width:30%;
+    width:20%;
   }
   .video{
-    width:30%;
+    width:0%;
   }
+  
 }
+
