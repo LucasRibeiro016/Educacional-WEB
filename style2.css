@@ -49,6 +49,10 @@ h3{
     margin:1rem;
     
 }
+.sub{
+  font-size:1.3rem;
+  font-weight: 600;
+}
 
 .video {
     border-radius: 15px;
