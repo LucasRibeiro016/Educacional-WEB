@@ -2,16 +2,19 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reponsive.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="reponsive.css" />
 
     <title>O que e Web</title>
 </head>
@@ -38,13 +41,114 @@
         </div>
     </header>
     <main>
-        <h1>estruturas do HTML5</h1>
+        <h1>🏗️ estruturas do HTML5</h1>
 
-        <section>
+        <section class="container">
 
+            <h3>O que é HTML</h3>
+
+            <p class="content2">
+                HTML (HyperText Markup Language) é a linguagem que dá estrutura para
+                páginas da web.
+                Pensa nele como o “esqueleto” do site — define o que
+                aparece na tela: textos, imagens, links, listas, formulários, etc.
+            </p>
+
+            <p class="content2">Ele usa tags (etiquetas) para marcar cada parte do conteúdo.</p>
+            
+            <p class="content2">Exemplo básico de tag:</p>
+
+            <img src="/styles/pictures/paragrafo.png" alt="paragrafo" class="img1 img2" />
+
+            <h3>estrutura básica de um HTML</h3>
+
+            <p class="content2">Todo arquivo HTML segue uma base Parecida:</p>
+
+            <img src="/styles/pictures/estrutura-html.png" alt="estrutura" class="img1 img2" />
+
+            <p class="content2">
+                &bull;&lt;!DOCTYPE html&gt; → Diz ao navegador que é um documento
+                HTML5
+            </p>
+
+            <p class="content2">&bull;&lt;html&gt; → Raiz do documento</p>
+
+            <p class="content2">
+                &bull;&lt;head&gt; → Configurações, título, links de CSS, fontes,
+                metadados
+            </p>
+
+            <p class="content2">
+                &bull;&lt;body&gt; → O que realmente aparece na página
+            </p>
+
+            <h3>🏷️ Tags Iniciais Importantes</h3>
+
+            <p class="content2"></p>
+
+            <p class="content2">
+                &bull;&lt;h1&gt; até &lt;h6&gt; → Títulos (h1 = maior, h6 = menor)
+            </p>
+
+            <p class="content2">&bull;&lt;p&gt; → Parágrafos</p>
+
+            <p class="content2">&bull;&lt;a&gt;→ Links</p>
+
+            <p class="content2">&bull;&lt;img&gt; → Imagens</p>
+
+            <p class="content2">
+                &bull;&lt;div&gt; e &lt;span&gt; → Agrupar ou organizar conteúdo
+            </p>
+            
+            <h3>🔗 Tags de links</h3>
+
+            <p class="content2">Para criar um link:</p>
+
+            <img src="/styles/pictures/links.png" alt="links" class="img1 img2" />
+
+            <p class=" content2">&bull;href → Para onde o link aponta</p>
+            <p class=" content2">&bull;target="_blank" → Abre em nova aba</p>
+
+            <h3>📜 Listas ordenadas e não ordenada</h3>
+
+            <p class="">Lista não ordenada (bolinhas):</p>
+
+            <img src="/styles/pictures/lista-ul.png" alt="lista-ul" class="img1 img2" />
+
+            <p class="content2">Lista ordenada(números)</p>
+
+            <img src="/styles/pictures/lista-ol.png" alt="lista-ol" class="img1 img2" />
+
+            <h3>🎨 Como linkar o CSS no HTML</h3>
+
+            <p class="content2">Normalmente no &lt;head&gt;</p>
+
+            <img src="/styles/pictures/linkar-css.png" alt="link-css" class="img1 img2" />
+
+            <p class="content2">
+                &bull;rel="stylesheet" → Indica que é uma folha de estilo
+            </p>
+            <p class="content2">&bull;href → Caminho para o arquivo CSS</p>
+
+            <h3>✒️ Como linkar fontes no HTML</h3>
+
+            <p class="content2">Usando, por exemplo, o Google Fonts:</p>
+
+            <p class="content2">no &lt;head&gt;:</p>
+
+            <img src="/styles/pictures/linkar-font.png" alt="link-font" class="img1 img2" />
+
+            <p class="content2">e no CSS:</p>
+
+            <img src="/styles/pictures/css-font.png" alt="css-font" class="img1 img2" />
+
+            <h3>💡 Resumo da jogada:</h3>
+
+            <p class="content2">
+                HTML monta a estrutura → CSS cuida do visual → JS faz a parte
+                interativa.
+            </p>
         </section>
-
-
 
         <footer>
             <div class="footer">
@@ -52,28 +156,24 @@
                 <div class="img-footer">
                     <a href="https://www.instagram.com/_lucasribeiro016/" target="_blank" rel="noopener noreferrer">
                         <img src="https://img.icons8.com/?size=36&id=ZRiAFreol5mE&format=png&color=000000"
-                            alt="instagram">
+                            alt="instagram" />
                     </a>
                 </div>
             </div>
         </footer>
     </main>
     <script>
-        const hamburger = document.querySelector('.hamburger');
-        const right = document.querySelector('.right');
+        const hamburger = document.querySelector(".hamburger");
+        const right = document.querySelector(".right");
 
-        hamburger.addEventListener('click', (e) => {
-            e.stopPropagation()
-            right.classList.toggle('open');
+        hamburger.addEventListener("click", (e) => {
+            e.stopPropagation();
+            right.classList.toggle("open");
         });
-        document.addEventListener('click', () => {
-            right.classList.remove('open')
-
-        })
-
-
+        document.addEventListener("click", () => {
+            right.classList.remove("open");
+        });
     </script>
-
 </body>
 
 </html>

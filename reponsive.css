@@ -24,8 +24,15 @@
   .img1{
     width:90%;
   }
+  .img2{
+   max-width:100%;
+   width:300px;
+  }
   .video{
     width:90%;
+  }
+  body{
+    width:100%;
   }
   
 }
