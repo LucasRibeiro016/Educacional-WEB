@@ -15,7 +15,7 @@ a {
 
 }
 
-ul {
+.navegacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,18 +26,18 @@ ul {
     cursor: pointer;
 }
 
-li {
+.secoes {
     font-size: 1.1em;
-    color: #ccc2c2;
+    color: #0fa875;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 
-li:hover {
+.secoes:hover {
     transform: translateY(-3px);
 }
 
-li::after {
+.secoes::after {
     content: '';
     height: 2px;
     width: 0;
@@ -48,7 +48,7 @@ li::after {
     transition: width 0.5s ease;
 }
 
-li:hover::after {
+.secoes:hover::after {
     width: 100%;
 }
 
@@ -118,4 +118,17 @@ h1 {
   .hamburger {
     display: flex;
   }
+}
+.up {
+  position: fixed;
+  bottom:4rem; 
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50%;
+  background:#050a14;
+  color: white;
+  cursor: pointer;
+  border:1px solid white;
 }

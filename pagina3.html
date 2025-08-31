@@ -23,12 +23,12 @@
     <header>
         <div class="nav-bar">
             <nav>
-                <ul>
-                    <li class="min" onclick="location.href='index.html'">MiniDev</li>
+                <ul class="navegacao">
+                    <li class="min secoes" onclick="location.href='index.html'">MiniDev</li>
                     <div class="right">
-                        <li onclick="location.href='index.html'">HOME</li>
+                        <li onclick="location.href='index.html'" class="secoes">HOME</li>
                         <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
-                            <li>CursoFree</li>
+                            <li class="secoes">CursoFree</li>
                         </a>
                     </div>
                     <div class="hamburger">
@@ -76,12 +76,18 @@
                 para
                 isolar processos.</p>
 
+            <h2>Como funciona os Navegadores</h2>
+
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8SxZ_TLqorI?si=pwqFqLGWkKyiXJpw"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
 
         </section>
+
+        <div class="up" id="up">
+            <img src="/styles/pictures/uparrow.png" alt="arrow" class="img-arrow">
+        </div>
 
 
 
@@ -109,6 +115,16 @@
             right.classList.remove('open')
 
         })
+
+        const up = document.getElementById('up');
+
+
+        up.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
 
 
     </script>

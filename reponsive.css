@@ -34,7 +34,13 @@
   body{
     width:100%;
   }
-  
+  .up{
+    right:2px;
+  }
+  .img-arrow{
+    width:40px;
+    height:40px;
+  }
 }
 
 @media (min-width: 768px) {

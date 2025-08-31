@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="reponsive.css">
 
     <title>O que e Web</title>
@@ -20,12 +23,12 @@
     <header>
         <div class="nav-bar">
             <nav>
-                <ul>
-                    <li class="min" onclick="location.href='index.html'">MiniDev</li>
+                <ul class="navegacao">
+                    <li class="min secoes" onclick="location.href='index.html'">MiniDev</li>
                     <div class="right">
-                        <li onclick="location.href='index.html'">HOME</li>
+                        <li onclick="location.href='index.html'" class="secoes">HOME</li>
                         <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
-                            <li>CursoFree</li>
+                            <li class="secoes">CursoFree</li>
                         </a>
                     </div>
                     <div class="hamburger">
@@ -40,9 +43,116 @@
     <main>
         <h1>estruturas do CSS3</h1>
 
-        <section>
+        <section class="container">
+
+            <h2>🎯 O básico do CSS </h2>
+
+            <p class="content">CSS serve pra dizer como os elementos HTML vão parecer: cor, tamanho, posição,
+                espaçamento, etc.</p>
+
+            <p class="content">A regra geral é:</p>
+
+            <img src="/styles/pictures/regras css.png" alt="" class="img1 img3">
+
+            <h2>🏷️ Seletores</h2>
+
+            <img src="/styles/pictures/por-tag.png" alt="" class="img1 img3">
+
+            <h2>📏 Espaçamentos: margin e padding</h2>
+
+            <p class="content">&bull; margin: espaço fora do elemento (afasta dos outros).</p>
+            <p class="content">&bull; padding: espaço dentro do elemento (afasta o conteúdo das bordas).</p>
+
+            <img src="/styles/pictures/margin-padding.png" alt="margin" class="img1 img3">
+
+            <p class="content">Dica: você pode usar valores diferentes pra cada lado:</p>
+
+            <img src="/styles/pictures/margin-valores.png" alt="valores" class="img1 img3">
+
+            <h2>📦 Dimensões: width e height</h2>
+
+            <p class="content">&bull; width: largura.</p>
+            <p class="content">&bull; height: altura.</p>
+
+            <img src="/styles/pictures/dimensoes.png" alt="dimensoes" class="img1 img3">
+
+            <p class="content">Pode usar % (percentual da tela ou do elemento pai) ou auto.</p>
+
+            <h2>🖼️ Fundo (background e background-color)</h2>
+
+            <p class="content">&bull; background-color: só a cor de fundo.</p>
+            <p class="content">&bull; background: pode ser cor, imagem, repetição, posição, tudo num só.</p>
+
+            <img src="/styles/pictures/background.png" alt="background" class="img1 img3">
+
+            <h2>🖋️ Texto (text-align e companhia)</h2>
+
+            <p class="content">&bull; text-align: alinha horizontalmente o texto (left, right, center, justify).</p>
+            <p class="content">&bull; color: cor da fonte.</p>
+            <p class="content">&bull; font-size: tamanho da fonte.</p>
+            <p class="content">&bull; font-weight: negrito (bold).</p>
+
+            <img src="/styles/pictures/text-align.png" alt="align" class="img1 img3">
+
+            <h2>📐 Displays</h2>
+
+            <p class="content">Define como o elemento se comporta no fluxo da página:</p>
+
+            <p class="content">&bull; block → ocupa a linha toda (ex: &lt;div&gt;, &lt;p&gt;).</p>
+            <p class="content">&bull; inline → ocupa só o espaço do conteúdo (ex: &lt;span&gt;, &lt;a&gt;).</p>
+            <p class="content">&bull; inline-block → mistura: respeita altura/largura, mas fica na linha.</p>
+            <p class="content">&bull; flex → ativa layout flexível (muito usado pra centralizar, alinhar e distribuir).
+            </p>
+            <p class="content">&bull; rid → layout em grade.</p>
+
+            <img src="/styles/pictures/displays.png" alt="displays" class="img1 img3">
+
+            <h2>🔧 Outras propriedades muito usadas</h2>
+
+            <p class="content">&bull; border → bordas.</p>
+
+            <img src="/styles/pictures/bordar.png" alt="borda" class="img1 img3">
+
+            <p class="content">&bull; border-radius → arredonda cantos.</p>
+
+            <img src="/styles/pictures/arrendodar-cantos.png" alt="cantos" class="img1 img3">
+
+            <p class="content">&bull; overflow → controla conteúdo que vaza.</p>
+
+            <img src="/styles/pictures/overrflow.png" alt="overflow" class="img1 img3">
+
+            <p class="content">&bull; position → posicionamento.</p>
+
+            <img src="/styles/pictures/fixed.png" alt="fixed" class="img1 img3">
+
+            <p class="content">Esses são apenas os conceitos básicos de CSS.
+                Quer dar um próximo passo e dominar HTML5 e CSS3 de verdade?
+                Então confere o Curso Gratuito do Gustavo Guanabara — pra acessar, é só clicar em CursoFree no menu de
+                navegação do site.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         </section>
+
+        <div class="up" id="up">
+            <img src="/styles/pictures/uparrow.png" alt="arrow" class="img-arrow">
+        </div>
 
 
 
@@ -71,6 +181,15 @@
 
         })
 
+        const up = document.getElementById('up');
+
+
+        up.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
 
     </script>
 

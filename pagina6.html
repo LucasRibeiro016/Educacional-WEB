@@ -1,197 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="nav.css" />
-    <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="style2.css" />
-    <link
-      rel="icon"
-      type="image/svg"
-      href="styles/pictures/student-svgrepo-com.svg"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="reponsive.css" />
 
-    <title>O que e Web</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="nav.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="reponsive.css" />
 
-  <body>
-    <header>
-      <div class="nav-bar">
-        <nav>
-          <ul>
-            <li class="min" onclick="location.href='index.html'">MiniDev</li>
-            <div class="right">
-              <li onclick="location.href='index.html'">HOME</li>
-              <a
-                href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/"
-                target="_blank"
-              >
-                <li>CursoFree</li>
-              </a>
-            </div>
-            <div class="hamburger">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <h1>Hospedagem e Domínios</h1>
+  <title>O que e Web</title>
+</head>
 
-      <section class="container">
-        <img src="/styles/pictures/dominios.jpg" alt="dominios/hospedagem" class="img1"/>
-
-        <h3></h3>
-        <p class="content">
-          Um domínio é o endereço do seu site na internet, algo como
-          www.seusite.com. Ele é a forma amigável que as pessoas usam para
-          acessar páginas sem precisar decorar números de IP (tipo 192.168.0.1).
-          Basicamente, o domínio serve para identificar e localizar seu site na
-          web. Ele é composto por
-        </p>
-        <p class="content">&bull; Nome: a parte personalizada (ex.: seusite)</p>
-        <p class="content">
-          &bull;Extensão: o final do endereço, como .com, .org, .br.
-        </p>
-        <p class="content">exemplo</p>
-        <p class="content">&bull;Nome: meusite</p>
-        <p class="content">&bull;Extensão: .com.br</p>
-        <p class="content">
-          Os domínios são registrados por entidades chamadas registradoras, que
-          controlam esses endereços (no Brasil, o órgão oficial é o Registro.br
-          ).
-        </p>
-        <h3>O que é hospedagem?</h3>
-        <p class="content">
-          Se o domínio é o endereço, a hospedagem é a casa onde seu site mora.
-          Ela é um servidor (computador potente conectado à internet 24h) que
-          armazena todos os arquivos do site: imagens, códigos, banco de dados,
-          vídeos etc. Quando alguém acessa seu domínio, o servidor entrega essas
-          informações para o navegador do usuário.
-        </p>
-        <h3>O que é hospedagem?</h3>
-        <p class="content">
-          Se o domínio é o endereço, a hospedagem é a casa onde seu site mora.
-          Ela é um servidor (computador potente conectado à internet 24h) que
-          armazena todos os arquivos do site: imagens, códigos, banco de dados,
-          vídeos etc. Quando alguém acessa seu domínio, o servidor entrega essas
-          informações para o navegador do usuário.
-        </p>
-        <h3>Tipos de Hospedagem</h3>
-        <p class="content">
-          Existem vários tipos de hospedagem, cada um para necessidades
-          diferentes:
-        </p>
-        <p class="content sub">1. Hospedagem Compartilhada</p>
-        <p class="content">
-          &bull;Vários sites dividem os recursos do mesmo servidor.
-        </p>
-        <p class="content">
-          &bull; Mais barata, mas pode ficar lenta se houver muito tráfego.
-        </p>
-        <p class="content">&bull; Ideal para sites pequenos ou iniciantes.</p>
-        <p class="content sub">2. VPS (Servidor Virtual Privado)</p>
-        <p class="content">
-          &bull; Um servidor físico é dividido em máquinas virtuais isoladas.
-        </p>
-        <p class="content">
-          &bull;Mais caro, mas com desempenho melhor e mais controle.
-        </p>
-        <p class="content sub">3. Servidor Dedicado</p>
-        <p class="content">&bull; Um servidor inteiro só para você.</p>
-        <p class="content">
-          &bull;Alta performance, indicado para sites grandes ou sistemas
-          pesados.
-        </p>
-        <p class="content sub">4. Hospedagem em Nuvem (Cloud Hosting)</p>
-        <p class="content">&bull; Usa vários servidores conectados em nuvem.</p>
-        <p class="content">&bull; Alta disponibilidade e escalabilidade.</p>
-        <p class="content">&bull; Ideal para projetos que crescem rápido.</p>
-        <h3>Domínio e Hospedagem são a mesma coisa?</h3>
-        <p class="content">
-          Não. Eles se complementam, mas são serviços diferentes:
-        </p>
-        <p class="content">&bull; Domínio → o endereço do site (URL).</p>
-        <p class="content">
-          &bull; Hospedagem → o espaço onde ficam os arquivos.
-        </p>
-        <p class="content">
-          Você pode registrar um domínio com uma empresa e hospedar com outra,
-          desde que aponte os DNS corretamente (os DNS dizem para onde o domínio
-          deve levar o visitante).
-        </p>
-        <h3>Quanto custa?</h3>
-        <p class="content">
-          &bull; Domínio: geralmente pago anualmente (no Brasil, .com.br custa
-          cerca de R$ 40/ano).
-        </p>
-        <p class="content">
-          &bull; Hospedagem: varia de R$ 10 a R$ 500/mês, dependendo do tipo e
-          dos recursos.
-        </p>
-        <h3>Por que isso é importante?</h3>
-        <p class="content">
-          Sem domínio, seu site ficaria com um endereço estranho (tipo IP). Sem
-          hospedagem, não tem onde os arquivos ficarem. Juntos, eles garantem
-          que seu site esteja online, acessível e com boa performance.
-        </p>
-
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/ZuLH_WzPU5I?si=SwsxQJchVnoOlfMy"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          class="video"
-        ></iframe>
-      </section>
-
-      <footer>
-        <div class="footer">
-          <h4>&copy; Lucas Ribeiro</h4>
-          <div class="img-footer">
-            <a
-              href="https://www.instagram.com/_lucasribeiro016/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="https://img.icons8.com/?size=36&id=ZRiAFreol5mE&format=png&color=000000"
-                alt="instagram"
-              />
+<body>
+  <header>
+    <div class="nav-bar">
+      <nav>
+        <ul class="navegacao">
+          <li class="min secoes" onclick="location.href='index.html'">MiniDev</li>
+          <div class="right">
+            <li onclick="location.href='index.html'" class="secoes">HOME</li>
+            <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
+              <li class="secoes">CursoFree</li>
             </a>
           </div>
-        </div>
-      </footer>
-    </main>
-    <script>
-      const hamburger = document.querySelector(".hamburger");
-      const right = document.querySelector(".right");
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Hospedagem e Domínios</h1>
 
-      hamburger.addEventListener("click", (e) => {
-        e.stopPropagation();
-        right.classList.toggle("open");
+    <section class="container">
+      <img src="/styles/pictures/dominios.jpg" alt="dominios/hospedagem" class="img1" />
+
+      <h3></h3>
+      <p class="content">
+        Um domínio é o endereço do seu site na internet, algo como
+        www.seusite.com. Ele é a forma amigável que as pessoas usam para
+        acessar páginas sem precisar decorar números de IP (tipo 192.168.0.1).
+        Basicamente, o domínio serve para identificar e localizar seu site na
+        web. Ele é composto por
+      </p>
+      <p class="content">&bull; Nome: a parte personalizada (ex.: seusite)</p>
+      <p class="content">
+        &bull;Extensão: o final do endereço, como .com, .org, .br.
+      </p>
+      <p class="content">exemplo</p>
+      <p class="content">&bull;Nome: meusite</p>
+      <p class="content">&bull;Extensão: .com.br</p>
+      <p class="content">
+        Os domínios são registrados por entidades chamadas registradoras, que
+        controlam esses endereços (no Brasil, o órgão oficial é o Registro.br
+        ).
+      </p>
+      <h3>O que é hospedagem?</h3>
+      <p class="content">
+        Se o domínio é o endereço, a hospedagem é a casa onde seu site mora.
+        Ela é um servidor (computador potente conectado à internet 24h) que
+        armazena todos os arquivos do site: imagens, códigos, banco de dados,
+        vídeos etc. Quando alguém acessa seu domínio, o servidor entrega essas
+        informações para o navegador do usuário.
+      </p>
+      <h3>O que é hospedagem?</h3>
+      <p class="content">
+        Se o domínio é o endereço, a hospedagem é a casa onde seu site mora.
+        Ela é um servidor (computador potente conectado à internet 24h) que
+        armazena todos os arquivos do site: imagens, códigos, banco de dados,
+        vídeos etc. Quando alguém acessa seu domínio, o servidor entrega essas
+        informações para o navegador do usuário.
+      </p>
+      <h3>Tipos de Hospedagem</h3>
+      <p class="content">
+        Existem vários tipos de hospedagem, cada um para necessidades
+        diferentes:
+      </p>
+      <p class="content sub">1. Hospedagem Compartilhada</p>
+      <p class="content">
+        &bull;Vários sites dividem os recursos do mesmo servidor.
+      </p>
+      <p class="content">
+        &bull; Mais barata, mas pode ficar lenta se houver muito tráfego.
+      </p>
+      <p class="content">&bull; Ideal para sites pequenos ou iniciantes.</p>
+      <p class="content sub">2. VPS (Servidor Virtual Privado)</p>
+      <p class="content">
+        &bull; Um servidor físico é dividido em máquinas virtuais isoladas.
+      </p>
+      <p class="content">
+        &bull;Mais caro, mas com desempenho melhor e mais controle.
+      </p>
+      <p class="content sub">3. Servidor Dedicado</p>
+      <p class="content">&bull; Um servidor inteiro só para você.</p>
+      <p class="content">
+        &bull;Alta performance, indicado para sites grandes ou sistemas
+        pesados.
+      </p>
+      <p class="content sub">4. Hospedagem em Nuvem (Cloud Hosting)</p>
+      <p class="content">&bull; Usa vários servidores conectados em nuvem.</p>
+      <p class="content">&bull; Alta disponibilidade e escalabilidade.</p>
+      <p class="content">&bull; Ideal para projetos que crescem rápido.</p>
+      <h3>Domínio e Hospedagem são a mesma coisa?</h3>
+      <p class="content">
+        Não. Eles se complementam, mas são serviços diferentes:
+      </p>
+      <p class="content">&bull; Domínio → o endereço do site (URL).</p>
+      <p class="content">
+        &bull; Hospedagem → o espaço onde ficam os arquivos.
+      </p>
+      <p class="content">
+        Você pode registrar um domínio com uma empresa e hospedar com outra,
+        desde que aponte os DNS corretamente (os DNS dizem para onde o domínio
+        deve levar o visitante).
+      </p>
+      <h3>Quanto custa?</h3>
+      <p class="content">
+        &bull; Domínio: geralmente pago anualmente (no Brasil, .com.br custa
+        cerca de R$ 40/ano).
+      </p>
+      <p class="content">
+        &bull; Hospedagem: varia de R$ 10 a R$ 500/mês, dependendo do tipo e
+        dos recursos.
+      </p>
+      <h3>Por que isso é importante?</h3>
+      <p class="content">
+        Sem domínio, seu site ficaria com um endereço estranho (tipo IP). Sem
+        hospedagem, não tem onde os arquivos ficarem. Juntos, eles garantem
+        que seu site esteja online, acessível e com boa performance.
+      </p>
+
+      <h2 class="space">Domínios é Hospedagem</h2>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZuLH_WzPU5I?si=SwsxQJchVnoOlfMy"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+    </section>
+
+    <div class="up" id="up">
+      <img src="/styles/pictures/uparrow.png" alt="arrow"class="img-arrow">
+    </div>
+
+    <footer>
+      <div class="footer">
+        <h4>&copy; Lucas Ribeiro</h4>
+        <div class="img-footer">
+          <a href="https://www.instagram.com/_lucasribeiro016/" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/?size=36&id=ZRiAFreol5mE&format=png&color=000000" alt="instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const right = document.querySelector(".right");
+
+    hamburger.addEventListener("click", (e) => {
+      e.stopPropagation();
+      right.classList.toggle("open");
+    });
+    document.addEventListener("click", () => {
+      right.classList.remove("open");
+    });
+
+    const up = document.getElementById('up');
+
+
+    up.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
-      document.addEventListener("click", () => {
-        right.classList.remove("open");
-      });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

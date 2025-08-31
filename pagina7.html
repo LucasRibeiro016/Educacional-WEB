@@ -23,12 +23,12 @@
     <header>
         <div class="nav-bar">
             <nav>
-                <ul>
-                    <li class="min" onclick="location.href='index.html'">MiniDev</li>
+                <ul class="navegacao">
+                    <li class="min secoes" onclick="location.href='index.html'">MiniDev</li>
                     <div class="right">
-                        <li onclick="location.href='index.html'">HOME</li>
+                        <li onclick="location.href='index.html'" class="secoes">HOME</li>
                         <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
-                            <li>CursoFree</li>
+                            <li class="secoes">CursoFree</li>
                         </a>
                     </div>
                     <div class="hamburger">
@@ -55,59 +55,48 @@
             </p>
 
             <p class="content2">Ele usa tags (etiquetas) para marcar cada parte do conteúdo.</p>
-            
+
             <p class="content2">Exemplo básico de tag:</p>
 
-            <img src="/styles/pictures/paragrafo.png" alt="paragrafo" class="img1 img2" />
+            <img src="/styles/pictures/paragrafo.png" alt="paragrafo" class="img1 img3" />
 
             <h3>estrutura básica de um HTML</h3>
 
             <p class="content2">Todo arquivo HTML segue uma base Parecida:</p>
 
-            <img src="/styles/pictures/estrutura-html.png" alt="estrutura" class="img1 img2" />
+            <img src="/styles/pictures/estrutura-html.png" alt="estrutura" class="img1 img3 " />
 
-            <p class="content2">
-                &bull;&lt;!DOCTYPE html&gt; → Diz ao navegador que é um documento
-                HTML5
-            </p>
+            <ul class="content2">
+                <li>&lt;!DOCTYPE html&gt; → Diz ao navegador que é um documento HTML5</li>
+                <li>&lt;html&gt; → Raiz do documento</li>
+                <li>&lt;head&gt; → Configurações, título, links de CSS, fontes, metadados</li>
+                <li>&lt;body&gt; → O que realmente aparece na página</li>
+            </ul>
 
-            <p class="content2">&bull;&lt;html&gt; → Raiz do documento</p>
-
-            <p class="content2">
-                &bull;&lt;head&gt; → Configurações, título, links de CSS, fontes,
-                metadados
-            </p>
-
-            <p class="content2">
-                &bull;&lt;body&gt; → O que realmente aparece na página
-            </p>
 
             <h3>🏷️ Tags Iniciais Importantes</h3>
 
-            <p class="content2"></p>
 
-            <p class="content2">
-                &bull;&lt;h1&gt; até &lt;h6&gt; → Títulos (h1 = maior, h6 = menor)
-            </p>
+            <ul class="content2">
+                <li>&lt;h1&gt; até &lt;h6&gt; → Títulos (h1 = maior, h6 = menor)</li>
+                <li>&lt;p&gt; → Parágrafos</li>
+                <li>&lt;a&gt; → Links</li>
+                <li>&lt;img&gt; → Imagens</li>
+                <li>&lt;div&gt; e &lt;span&gt; → Agrupar ou organizar conteúdo</li>
+            </ul>
 
-            <p class="content2">&bull;&lt;p&gt; → Parágrafos</p>
 
-            <p class="content2">&bull;&lt;a&gt;→ Links</p>
-
-            <p class="content2">&bull;&lt;img&gt; → Imagens</p>
-
-            <p class="content2">
-                &bull;&lt;div&gt; e &lt;span&gt; → Agrupar ou organizar conteúdo
-            </p>
-            
             <h3>🔗 Tags de links</h3>
 
             <p class="content2">Para criar um link:</p>
 
-            <img src="/styles/pictures/links.png" alt="links" class="img1 img2" />
+            <img src="/styles/pictures/links.png" alt="links" class="img1 img3" />
 
-            <p class=" content2">&bull;href → Para onde o link aponta</p>
-            <p class=" content2">&bull;target="_blank" → Abre em nova aba</p>
+            <ul class="content2">
+                <li>href → Para onde o link aponta</li>
+                <li>target="_blank" → Abre em nova aba</li>
+            </ul>
+
 
             <h3>📜 Listas ordenadas e não ordenada</h3>
 
@@ -123,7 +112,7 @@
 
             <p class="content2">Normalmente no &lt;head&gt;</p>
 
-            <img src="/styles/pictures/linkar-css.png" alt="link-css" class="img1 img2" />
+            <img src="/styles/pictures/linkar-css.png" alt="link-css" class="img1 img3" />
 
             <p class="content2">
                 &bull;rel="stylesheet" → Indica que é uma folha de estilo
@@ -136,11 +125,11 @@
 
             <p class="content2">no &lt;head&gt;:</p>
 
-            <img src="/styles/pictures/linkar-font.png" alt="link-font" class="img1 img2" />
+            <img src="/styles/pictures/linkar-font.png" alt="link-font" class="img1 img3" />
 
             <p class="content2">e no CSS:</p>
 
-            <img src="/styles/pictures/css-font.png" alt="css-font" class="img1 img2" />
+            <img src="/styles/pictures/css-font.png" alt="css-font" class="img1 img3" />
 
             <h3>💡 Resumo da jogada:</h3>
 
@@ -149,6 +138,10 @@
                 interativa.
             </p>
         </section>
+
+        <div class="up" id="up">
+            <img src="/styles/pictures/uparrow.png" alt="arrow"class="img-arrow">
+        </div>
 
         <footer>
             <div class="footer">
@@ -172,6 +165,16 @@
         });
         document.addEventListener("click", () => {
             right.classList.remove("open");
+        });
+
+        const up = document.getElementById('up');
+
+
+        up.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     </script>
 </body>

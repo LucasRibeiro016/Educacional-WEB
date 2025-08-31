@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="icon" type="image/svg" href="styles/pictures/student-svgrepo-com.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="reponsive.css">
 
     <title>O que e Web</title>
@@ -20,12 +23,12 @@
     <header>
         <div class="nav-bar">
             <nav>
-                <ul>
-                    <li class="min" onclick="location.href='index.html'">MiniDev</li>
+                <ul class="navegacao">
+                    <li class="min secoes" onclick="location.href='index.html'">MiniDev</li>
                     <div class="right">
-                        <li onclick="location.href='index.html'">HOME</li>
+                        <li onclick="location.href='index.html'" class="secoes">HOME</li>
                         <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/" target="_blank">
-                            <li>CursoFree</li>
+                            <li class="secoes">CursoFree</li>
                         </a>
                     </div>
                     <div class="hamburger">
@@ -41,25 +44,43 @@
         <h1>Oque e uma URL</h1>
 
         <section class="container">
-        <img src="/styles/pictures/urls.png" alt="urls" class="img1">
-            <p class="content">URL significa Uniform Resource Locator, ou em português, Localizador Uniforme de Recursos. É o endereço usado para acessar recursos na internet, como páginas, imagens, vídeos ou arquivos. Cada recurso disponível na web precisa de um endereço único para ser encontrado, e é isso que a URL fornece.</p>
+            <img src="/styles/pictures/urls.png" alt="urls" class="img1">
+            <p class="content">URL significa Uniform Resource Locator, ou em português, Localizador Uniforme de
+                Recursos. É o endereço usado para acessar recursos na internet, como páginas, imagens, vídeos ou
+                arquivos. Cada recurso disponível na web precisa de um endereço único para ser encontrado, e é isso que
+                a URL fornece.</p>
 
             <h3>Uma URL é composta por algumas partes principais:</h3>
 
-            <p class="content"> &bull; Protocolo (ex.: https://) – indica como o navegador deve se comunicar com o servidor.</p>
+            <p class="content"> &bull; Protocolo (ex.: https://) – indica como o navegador deve se comunicar com o
+                servidor.</p>
 
             <p class="content"> &bull;Domínio (ex.: www.exemplo.com) – identifica o site onde está o recurso.</p>
 
-            <p class="content"> &bull;Caminho (ex.: /pagina.html) – aponta para a página ou arquivo específico dentro do site.</p>
+            <p class="content"> &bull;Caminho (ex.: /pagina.html) – aponta para a página ou arquivo específico dentro do
+                site.</p>
 
-            <p class="content">&bull; Parâmetros e fragmentos (opcionais) – usados para enviar dados ou apontar para uma parte específica do conteúdo.</p>
+            <p class="content">&bull; Parâmetros e fragmentos (opcionais) – usados para enviar dados ou apontar para uma
+                parte específica do conteúdo.</p>
 
             <h3>Para que serve?</h3>
 
-            <p class="content">A URL serve para localizar e acessar recursos na internet de forma padronizada. Sem ela, não seria possível navegar na web, pois os navegadores não saberiam onde buscar os conteúdos. Em outras palavras, a URL é como o “endereço de uma casa”, só que no mundo digital, permitindo que você encontre exatamente o que procura.</p>
+            <p class="content">A URL serve para localizar e acessar recursos na internet de forma padronizada. Sem ela,
+                não seria possível navegar na web, pois os navegadores não saberiam onde buscar os conteúdos. Em outras
+                palavras, a URL é como o “endereço de uma casa”, só que no mundo digital, permitindo que você encontre
+                exatamente o que procura.</p>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/01XhfupXDgA?si=KRdwgTkezooILtg2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
+            <h2>O que é URL?</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/01XhfupXDgA?si=KRdwgTkezooILtg2"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video"></iframe>
         </section>
+
+        <div class="up" id="up">
+            <img src="/styles/pictures/uparrow.png" alt="arrow" class="img-arrow">
+        </div>
 
 
 
@@ -87,6 +108,16 @@
             right.classList.remove('open')
 
         })
+
+        const up = document.getElementById('up');
+
+
+        up.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
 
 
     </script>
